@@ -1,1 +1,5 @@
-test
+hadoop jar finalPart1.jar finalproject.problem1.ProcessLogs finalPrjData part1_job1st part2_job2nd
+
+Command format:
+hadoop jar finalPart1.jar finalproject.problem1.ProcessLogs <uploaded data on HDFS> <output job1> <output job2>
+NOTE: output of job1 is input of job2
